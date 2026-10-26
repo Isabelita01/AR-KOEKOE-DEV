@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 200,
+    "left": 0,
+    "width": 900,
+    "height": 1200,
+    "isRotated": false,
+    "originalWidth": 900,
+    "originalHeight": 1600
+  },
+  "imagePath": "image-targets/portada_luminance.jpg",
+  "metadata": null,
+  "name": "portada",
+  "resources": {
+    "originalImage": "portada_original.jpg",
+    "croppedImage": "portada_cropped.jpg",
+    "thumbnailImage": "portada_thumbnail.jpg",
+    "luminanceImage": "portada_luminance.jpg"
+  },
+  "created": 1792091659031,
+  "updated": 1792091659031
+}

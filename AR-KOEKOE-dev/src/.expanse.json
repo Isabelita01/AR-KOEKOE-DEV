@@ -1,0 +1,457 @@
+{
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "position": [
+        4.919663512228803,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.4038940050501252
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "position": [
+        0,
+        2,
+        3
+      ],
+      "rotation": [
+        0.0004436887233141012,
+        0.9659425615285845,
+        -0.25875089860082223,
+        0.0016563336561801576
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 1.0308214152219775
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 1,
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.6644431107322474,
+      "hidden": true
+    },
+    "8221c64a-902c-4f93-a41a-5e9e238ab73c": {
+      "id": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.47631778659872426,
+        0.46385307087406735,
+        0.9999999999999998
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "portada"
+      },
+      "order": 3.027365980923798
+    },
+    "cc0dd266-3073-4403-bf60-b797355137b0": {
+      "id": "cc0dd266-3073-4403-bf60-b797355137b0",
+      "position": [
+        0,
+        0,
+        0.005141796442718199
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "forceTransparent": true,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/sopa.png"
+        }
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle",
+      "order": 1.7506146507636613
+    },
+    "10c5b3d6-3ddd-4b40-a6d1-89f5a7763cfb": {
+      "id": "10c5b3d6-3ddd-4b40-a6d1-89f5a7763cfb",
+      "position": [
+        0,
+        0,
+        0.022832653788034615
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/carnita.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (1)",
+      "order": 2.788353422562892
+    },
+    "687a08f2-6049-4949-813e-68a6755b039c": {
+      "id": "687a08f2-6049-4949-813e-68a6755b039c",
+      "position": [
+        0,
+        0,
+        0.04535829645056779
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/camarones.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (2)",
+      "order": 4.3202682716154355
+    },
+    "47a5851a-9b9c-4af4-8cd7-e12d5996c1f6": {
+      "id": "47a5851a-9b9c-4af4-8cd7-e12d5996c1f6",
+      "position": [
+        0,
+        0,
+        0.09144836402081911
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/almeja_1.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (3)",
+      "order": 5.93480734383309
+    },
+    "a6abcc45-445c-4381-ab03-87780fcde6d2": {
+      "id": "a6abcc45-445c-4381-ab03-87780fcde6d2",
+      "position": [
+        0,
+        0,
+        0.1303592614376002
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/almeja_2.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (4)",
+      "order": 7.811646486860505
+    },
+    "0f95040f-9e1c-448c-9e7e-843cb03c53a2": {
+      "id": "0f95040f-9e1c-448c-9e7e-843cb03c53a2",
+      "position": [
+        0,
+        0,
+        0.14091585494540523
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/almeja_3.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (5)",
+      "order": 8.924564417075924
+    },
+    "4d033b6e-be54-45a3-8682-ee8429ad053c": {
+      "id": "4d033b6e-be54-45a3-8682-ee8429ad053c",
+      "position": [
+        0,
+        0,
+        0.13412814223568767
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/almeja_5.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (6)",
+      "order": 10.346022338398924,
+      "hidden": false
+    },
+    "69e1f8d7-5a3f-49fa-ae8d-ca7e3a5a1967": {
+      "id": "69e1f8d7-5a3f-49fa-ae8d-ca7e3a5a1967",
+      "position": [
+        0,
+        0,
+        0.16393270041500194
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/maricoss.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (7)",
+      "order": 12.24331294108208
+    },
+    "276369ef-4a0c-4b66-a37a-d49899207443": {
+      "id": "276369ef-4a0c-4b66-a37a-d49899207443",
+      "position": [
+        0,
+        0,
+        0.15573426766925144
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.625959811764836,
+        1.6968369235679985,
+        0.8999999999999999
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/perejil.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Circle (8)",
+      "order": 13.37332602428026
+    }
+  },
+  "spaces": {
+    "88453035-dc0f-486d-868a-8ff7c2fda864": {
+      "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "name": "Default Space",
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+    }
+  },
+  "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+}
