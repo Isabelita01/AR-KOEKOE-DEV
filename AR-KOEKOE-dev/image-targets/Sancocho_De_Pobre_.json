@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 543,
+    "width": 2657,
+    "height": 3543,
+    "isRotated": false,
+    "originalWidth": 3543,
+    "originalHeight": 3543
+  },
+  "imagePath": "image-targets/Sancocho_De_Pobre__luminance.png",
+  "metadata": null,
+  "name": "Sancocho_De_Pobre_",
+  "resources": {
+    "originalImage": "Sancocho_De_Pobre__original.png",
+    "croppedImage": "Sancocho_De_Pobre__cropped.png",
+    "thumbnailImage": "Sancocho_De_Pobre__thumbnail.png",
+    "luminanceImage": "Sancocho_De_Pobre__luminance.png"
+  },
+  "created": 1793124815649,
+  "updated": 1793124831734
+}

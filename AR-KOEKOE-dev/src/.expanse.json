@@ -115,11 +115,12 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Image Target",
+      "name": "Cazuela de mariscos",
       "imageTarget": {
-        "name": "portada"
+        "name": "Cazuela_De_Mariscos"
       },
-      "order": 3.027365980923798
+      "order": 3.027365980923798,
+      "hidden": true
     },
     "cc0dd266-3073-4403-bf60-b797355137b0": {
       "id": "cc0dd266-3073-4403-bf60-b797355137b0",
@@ -481,6 +482,351 @@
       "components": {},
       "name": "Plane",
       "order": 14.788705499646326
+    },
+    "800eb019-e034-49e9-a29d-9bfee487f4cf": {
+      "id": "800eb019-e034-49e9-a29d-9bfee487f4cf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7626088181529896,
+        0.7626088181529896,
+        0.7626088181529896
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "sancocho de pobre",
+      "imageTarget": {
+        "name": "Sancocho_De_Pobre_"
+      },
+      "order": 4.516339440677947,
+      "hidden": true
+    },
+    "24c594c9-cd42-4b90-a329-c1464d352597": {
+      "id": "24c594c9-cd42-4b90-a329-c1464d352597",
+      "position": [
+        0,
+        0,
+        0.022997323866822603
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000004,
+        1.0000000000000004,
+        1.0000000000000004
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/sopa.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "800eb019-e034-49e9-a29d-9bfee487f4cf",
+      "components": {},
+      "name": "Circle (9)",
+      "order": 1.0429632418928723
+    },
+    "ba9c98d8-26ae-47d9-a5eb-a049ef08702d": {
+      "id": "ba9c98d8-26ae-47d9-a5eb-a049ef08702d",
+      "position": [
+        0,
+        0,
+        0.04578943565785031
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000004,
+        1.0000000000000004,
+        1.0000000000000004
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/papas.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "800eb019-e034-49e9-a29d-9bfee487f4cf",
+      "components": {},
+      "name": "Circle (10)",
+      "order": 2.1390113010378373
+    },
+    "36f268cf-99a2-43c8-af70-d8c7b5840298": {
+      "id": "36f268cf-99a2-43c8-af70-d8c7b5840298",
+      "position": [
+        0,
+        0,
+        0.07000640795418107
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000002,
+        1.0000000000000002,
+        1.0000000000000002
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/perejil.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "800eb019-e034-49e9-a29d-9bfee487f4cf",
+      "components": {},
+      "name": "Circle (11)",
+      "order": 3.1421926226741874
+    },
+    "5431f709-bc2e-4265-95f1-819be73f49fe": {
+      "id": "5431f709-bc2e-4265-95f1-819be73f49fe",
+      "position": [
+        0.5800579169934064,
+        0.028532504534125293,
+        0.07887403948807108
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5369787226639535,
+        0.6032097320962215,
+        0.6032097320962215
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/pobre.jpg"
+        }
+      },
+      "parentId": "800eb019-e034-49e9-a29d-9bfee487f4cf",
+      "components": {},
+      "name": "Plane (1)",
+      "order": 4.616884771930142
+    },
+    "ef7d1255-5902-4061-8c22-6a72d2ee6b2e": {
+      "id": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.45753903559219417,
+        0.45753903559219417,
+        0.45753903559219417
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "sopa de zapallo",
+      "imageTarget": {
+        "name": "Sopa_De_Zapallo"
+      },
+      "order": 5.516797288947243
+    },
+    "54da40e5-16a1-43a3-9713-03bb8180683b": {
+      "id": "54da40e5-16a1-43a3-9713-03bb8180683b",
+      "position": [
+        0,
+        0,
+        0.04041296771755704
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.668902912581525,
+        1.668902912581525,
+        1.668902912581525
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Sopa_Zapallo.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
+      "components": {},
+      "name": "Circle (12)",
+      "order": 1.0415958432882082
+    },
+    "bb41f56a-c01d-48ae-968a-f67e639192cc": {
+      "id": "bb41f56a-c01d-48ae-968a-f67e639192cc",
+      "position": [
+        0,
+        0,
+        0.08163061910920519
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.6689029125815242,
+        1.6689029125815242,
+        1.6689029125815242
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/papa_zapallo.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
+      "components": {},
+      "name": "Circle (13)",
+      "order": -1.008553544835163
+    },
+    "c86355f8-e343-4f73-b7d6-575d7722761a": {
+      "id": "c86355f8-e343-4f73-b7d6-575d7722761a",
+      "position": [
+        0,
+        0,
+        0.10629057743992251
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.6016267121748715,
+        1.6016267121748715,
+        1.6016267121748715
+      ],
+      "geometry": {
+        "type": "circle",
+        "radius": 0.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/coso_rojo.png"
+        },
+        "forceTransparent": true
+      },
+      "parentId": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
+      "components": {},
+      "name": "Circle (14)",
+      "order": 2.4895292989020783
+    },
+    "497da5b6-2f72-4ad2-8482-64aa2a08bbc2": {
+      "id": "497da5b6-2f72-4ad2-8482-64aa2a08bbc2",
+      "position": [
+        0.9869653363524477,
+        0.03464290860606183,
+        0.16314926333706462
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.9270894952848937,
+        1.0262555572326262,
+        0.8893124159598749
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/ficha.jpg"
+        }
+      },
+      "parentId": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
+      "components": {},
+      "name": "Plane (2)",
+      "order": 4.301686360925911
     }
   },
   "spaces": {
