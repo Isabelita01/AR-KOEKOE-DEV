@@ -26,7 +26,8 @@
         1
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 0.4038940050501252
+      "order": 0.4038940050501252,
+      "hidden": false
     },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
@@ -67,7 +68,7 @@
       "geometry": null,
       "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
       "light": {
-        "intensity": 1,
+        "intensity": 0.5,
         "type": "directional"
       },
       "material": null,
@@ -90,7 +91,7 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474,
-      "hidden": true
+      "hidden": false
     },
     "8221c64a-902c-4f93-a41a-5e9e238ab73c": {
       "id": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
@@ -444,6 +445,42 @@
       "components": {},
       "name": "Circle (8)",
       "order": 13.37332602428026
+    },
+    "842a4325-aa77-4079-8e55-5df6eae3ada6": {
+      "id": "842a4325-aa77-4079-8e55-5df6eae3ada6",
+      "position": [
+        0.8843511141749576,
+        0.0644225206480707,
+        0.246645725722457
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7620188842797294,
+        0.8716857383528426,
+        0.7929740401065664
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/ficha_cazuela.jpg"
+        }
+      },
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "components": {},
+      "name": "Plane",
+      "order": 14.788705499646326
     }
   },
   "spaces": {
