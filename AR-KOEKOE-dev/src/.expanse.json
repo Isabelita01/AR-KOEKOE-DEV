@@ -510,7 +510,7 @@
         "name": "Sancocho_De_Pobre_"
       },
       "order": 4.516339440677947,
-      "hidden": false
+      "hidden": true
     },
     "24c594c9-cd42-4b90-a329-c1464d352597": {
       "id": "24c594c9-cd42-4b90-a329-c1464d352597",
@@ -683,7 +683,7 @@
         "name": "Sopa_De_Zapallo"
       },
       "order": 5.516797288947243,
-      "hidden": false
+      "hidden": true
     },
     "54da40e5-16a1-43a3-9713-03bb8180683b": {
       "id": "54da40e5-16a1-43a3-9713-03bb8180683b",
