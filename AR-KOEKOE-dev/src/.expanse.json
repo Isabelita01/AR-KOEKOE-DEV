@@ -61,7 +61,8 @@
         1
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.0308214152219775
+      "order": 1.0308214152219775,
+      "hidden": false
     },
     "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
       "components": {},
@@ -494,7 +495,7 @@
       "components": {},
       "name": "Ficha Cazuela de mariscos",
       "order": 14.788705499646326,
-      "hidden": true
+      "hidden": false
     },
     "800eb019-e034-49e9-a29d-9bfee487f4cf": {
       "id": "800eb019-e034-49e9-a29d-9bfee487f4cf",
@@ -534,7 +535,8 @@
       "imageTarget": {
         "name": "Sancocho_De_Pobre_"
       },
-      "order": 4.516339440677947
+      "order": 4.516339440677947,
+      "hidden": false
     },
     "24c594c9-cd42-4b90-a329-c1464d352597": {
       "id": "24c594c9-cd42-4b90-a329-c1464d352597",
@@ -679,7 +681,7 @@
       "components": {},
       "name": "Ficha sancocho de pobre",
       "order": 4.616884771930142,
-      "hidden": true
+      "hidden": false
     },
     "ef7d1255-5902-4061-8c22-6a72d2ee6b2e": {
       "id": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
@@ -864,7 +866,7 @@
       "components": {},
       "name": "Ficha sopa de zapallo",
       "order": 4.301686360925911,
-      "hidden": true
+      "hidden": false
     },
     "936b23e5-bf1f-49d8-bd92-05dc4681be93": {
       "id": "936b23e5-bf1f-49d8-bd92-05dc4681be93",
@@ -898,7 +900,8 @@
           "type": "asset",
           "asset": "assets/btn_conoce_mas.png"
         },
-        "transparent": true
+        "transparent": true,
+        "forceTransparent": true
       },
       "components": {
         "aa4ad997-982a-4803-955d-5be81ebc4ffa": {
@@ -948,7 +951,8 @@
           "type": "asset",
           "asset": "assets/btn_cerrar.png"
         },
-        "transparent": true
+        "transparent": true,
+        "forceTransparent": true
       },
       "components": {
         "21988a45-8998-4468-868c-7b73c8f2df5f": {
@@ -1033,7 +1037,8 @@
           "type": "asset",
           "asset": "assets/btn_conoce_mas.png"
         },
-        "transparent": true
+        "transparent": true,
+        "forceTransparent": true
       },
       "components": {
         "3ed7e21c-8002-498a-acd6-e6db5d2df595": {
@@ -1083,7 +1088,8 @@
           "type": "asset",
           "asset": "assets/btn_cerrar.png"
         },
-        "transparent": true
+        "transparent": true,
+        "forceTransparent": true
       },
       "components": {
         "0d6d82f7-2d7e-4d71-9227-d51aabb3974a": {
@@ -1168,7 +1174,8 @@
           "type": "asset",
           "asset": "assets/btn_conoce_mas.png"
         },
-        "transparent": true
+        "transparent": true,
+        "forceTransparent": true
       },
       "components": {
         "5bb4e151-6a65-48ed-a08e-89bf21abf2eb": {
@@ -1218,7 +1225,8 @@
           "type": "asset",
           "asset": "assets/btn_cerrar.png"
         },
-        "transparent": true
+        "transparent": true,
+        "forceTransparent": true
       },
       "components": {
         "503dc834-3b91-4930-a86e-8b2e48729b04": {
