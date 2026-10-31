@@ -114,7 +114,19 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "b630be31-9570-4115-83cc-2069cf022ce4": {
+          "id": "b630be31-9570-4115-83cc-2069cf022ce4",
+          "name": "Image Target Audio",
+          "parameters": {
+            "enabled": true,
+            "audioEntity": {
+              "type": "entity",
+              "id": "587b76f7-a99a-4d0b-8c68-b8ac68997503"
+            }
+          }
+        }
+      },
       "name": "Cazuela de mariscos",
       "imageTarget": {
         "name": "Cazuela_De_Mariscos"
@@ -480,8 +492,9 @@
       },
       "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
       "components": {},
-      "name": "Plane",
-      "order": 14.788705499646326
+      "name": "Ficha Cazuela de mariscos",
+      "order": 14.788705499646326,
+      "hidden": true
     },
     "800eb019-e034-49e9-a29d-9bfee487f4cf": {
       "id": "800eb019-e034-49e9-a29d-9bfee487f4cf",
@@ -504,7 +517,19 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "2c133c5b-5b71-4895-b853-81d00fd580ca": {
+          "id": "2c133c5b-5b71-4895-b853-81d00fd580ca",
+          "name": "Image Target Audio",
+          "parameters": {
+            "enabled": true,
+            "audioEntity": {
+              "type": "entity",
+              "id": "4807c9d4-7960-4434-91e2-ac34ab5b360a"
+            }
+          }
+        }
+      },
       "name": "sancocho de pobre",
       "imageTarget": {
         "name": "Sancocho_De_Pobre_"
@@ -652,8 +677,9 @@
       },
       "parentId": "800eb019-e034-49e9-a29d-9bfee487f4cf",
       "components": {},
-      "name": "Plane (1)",
-      "order": 4.616884771930142
+      "name": "Ficha sancocho de pobre",
+      "order": 4.616884771930142,
+      "hidden": true
     },
     "ef7d1255-5902-4061-8c22-6a72d2ee6b2e": {
       "id": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
@@ -676,7 +702,19 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "90243b7c-56f8-4b64-98f4-abf3b5477ff0": {
+          "id": "90243b7c-56f8-4b64-98f4-abf3b5477ff0",
+          "name": "Image Target Audio",
+          "parameters": {
+            "enabled": true,
+            "audioEntity": {
+              "type": "entity",
+              "id": "5d0df73a-afd3-4ca5-a597-7c3dbafc6f09"
+            }
+          }
+        }
+      },
       "name": "sopa de zapallo",
       "imageTarget": {
         "name": "Sopa_De_Zapallo"
@@ -824,8 +862,414 @@
       },
       "parentId": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
       "components": {},
-      "name": "Plane (2)",
-      "order": 4.301686360925911
+      "name": "Ficha sopa de zapallo",
+      "order": 4.301686360925911,
+      "hidden": true
+    },
+    "936b23e5-bf1f-49d8-bd92-05dc4681be93": {
+      "id": "936b23e5-bf1f-49d8-bd92-05dc4681be93",
+      "name": "Botón ver ficha",
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "position": [
+        0,
+        -1.0684184617839994,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7635766156055993,
+        0.7635766156055993,
+        0.7635766156055993
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.3333333333333333
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn_ver_ficha.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "aa4ad997-982a-4803-955d-5be81ebc4ffa": {
+          "id": "aa4ad997-982a-4803-955d-5be81ebc4ffa",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "enabled": true,
+            "targetEntity": {
+              "type": "entity",
+              "id": "842a4325-aa77-4079-8e55-5df6eae3ada6"
+            },
+            "activateOnClick": true
+          }
+        }
+      },
+      "order": 20
+    },
+    "fb5a5b74-c2de-41f1-822f-cfa067d8482d": {
+      "id": "fb5a5b74-c2de-41f1-822f-cfa067d8482d",
+      "name": "Botón cerrar ficha",
+      "parentId": "842a4325-aa77-4079-8e55-5df6eae3ada6",
+      "position": [
+        0.45,
+        0.45,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.16,
+        0.16,
+        0.16
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn_cerrar.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "21988a45-8998-4468-868c-7b73c8f2df5f": {
+          "id": "21988a45-8998-4468-868c-7b73c8f2df5f",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "enabled": true,
+            "targetEntity": {
+              "type": "entity",
+              "id": "842a4325-aa77-4079-8e55-5df6eae3ada6"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
+      "order": 0
+    },
+    "587b76f7-a99a-4d0b-8c68-b8ac68997503": {
+      "id": "587b76f7-a99a-4d0b-8c68-b8ac68997503",
+      "name": "Música de fondo",
+      "parentId": "8221c64a-902c-4f93-a41a-5e9e238ab73c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "order": 21,
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/musica_fondo.mp3"
+        },
+        "volume": 0.7,
+        "loop": true,
+        "paused": true,
+        "positional": false
+      }
+    },
+    "62fec686-f968-492d-a64d-9b17ea0697c5": {
+      "id": "62fec686-f968-492d-a64d-9b17ea0697c5",
+      "name": "Botón ver ficha",
+      "parentId": "800eb019-e034-49e9-a29d-9bfee487f4cf",
+      "position": [
+        0,
+        -0.7200000000000002,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.45000000000000023,
+        0.45000000000000023,
+        0.45000000000000023
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.3333333333333333
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn_ver_ficha.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "3ed7e21c-8002-498a-acd6-e6db5d2df595": {
+          "id": "3ed7e21c-8002-498a-acd6-e6db5d2df595",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "enabled": true,
+            "targetEntity": {
+              "type": "entity",
+              "id": "5431f709-bc2e-4265-95f1-819be73f49fe"
+            },
+            "activateOnClick": true
+          }
+        }
+      },
+      "order": 20
+    },
+    "7f13e68a-1b23-4749-ac35-96ffad9fa41c": {
+      "id": "7f13e68a-1b23-4749-ac35-96ffad9fa41c",
+      "name": "Botón cerrar ficha",
+      "parentId": "5431f709-bc2e-4265-95f1-819be73f49fe",
+      "position": [
+        0.45,
+        0.45,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.16,
+        0.16,
+        0.16
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn_cerrar.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "0d6d82f7-2d7e-4d71-9227-d51aabb3974a": {
+          "id": "0d6d82f7-2d7e-4d71-9227-d51aabb3974a",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "enabled": true,
+            "targetEntity": {
+              "type": "entity",
+              "id": "5431f709-bc2e-4265-95f1-819be73f49fe"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
+      "order": 0
+    },
+    "4807c9d4-7960-4434-91e2-ac34ab5b360a": {
+      "id": "4807c9d4-7960-4434-91e2-ac34ab5b360a",
+      "name": "Música de fondo",
+      "parentId": "800eb019-e034-49e9-a29d-9bfee487f4cf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "order": 21,
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/musica_fondo.mp3"
+        },
+        "volume": 0.7,
+        "loop": true,
+        "paused": true,
+        "positional": false
+      }
+    },
+    "af571be3-85d6-4a87-8150-b034d7dbca80": {
+      "id": "af571be3-85d6-4a87-8150-b034d7dbca80",
+      "name": "Botón ver ficha",
+      "parentId": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
+      "position": [
+        0,
+        -1.0544514562907625,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7510063106616862,
+        0.7510063106616862,
+        0.7510063106616862
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.3333333333333333
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn_ver_ficha.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "5bb4e151-6a65-48ed-a08e-89bf21abf2eb": {
+          "id": "5bb4e151-6a65-48ed-a08e-89bf21abf2eb",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "enabled": true,
+            "targetEntity": {
+              "type": "entity",
+              "id": "497da5b6-2f72-4ad2-8482-64aa2a08bbc2"
+            },
+            "activateOnClick": true
+          }
+        }
+      },
+      "order": 20
+    },
+    "08e67e5b-20d3-437e-8369-12644917515f": {
+      "id": "08e67e5b-20d3-437e-8369-12644917515f",
+      "name": "Botón cerrar ficha",
+      "parentId": "497da5b6-2f72-4ad2-8482-64aa2a08bbc2",
+      "position": [
+        0.45,
+        0.45,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.16,
+        0.16,
+        0.16
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn_cerrar.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "503dc834-3b91-4930-a86e-8b2e48729b04": {
+          "id": "503dc834-3b91-4930-a86e-8b2e48729b04",
+          "name": "Entity Toggle Button",
+          "parameters": {
+            "enabled": true,
+            "targetEntity": {
+              "type": "entity",
+              "id": "497da5b6-2f72-4ad2-8482-64aa2a08bbc2"
+            },
+            "activateOnClick": false
+          }
+        }
+      },
+      "order": 0
+    },
+    "5d0df73a-afd3-4ca5-a597-7c3dbafc6f09": {
+      "id": "5d0df73a-afd3-4ca5-a597-7c3dbafc6f09",
+      "name": "Música de fondo",
+      "parentId": "ef7d1255-5902-4061-8c22-6a72d2ee6b2e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "order": 21,
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/musica_fondo.mp3"
+        },
+        "volume": 0.7,
+        "loop": true,
+        "paused": true,
+        "positional": false
+      }
     }
   },
   "spaces": {
