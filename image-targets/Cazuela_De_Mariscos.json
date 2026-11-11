@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 442,
+    "width": 2657,
+    "height": 3543,
+    "isRotated": false,
+    "originalWidth": 3543,
+    "originalHeight": 3543
+  },
+  "imagePath": "image-targets/Cazuela_De_Mariscos_luminance.png",
+  "metadata": null,
+  "name": "Cazuela_De_Mariscos",
+  "resources": {
+    "originalImage": "Cazuela_De_Mariscos_original.png",
+    "croppedImage": "Cazuela_De_Mariscos_cropped.png",
+    "thumbnailImage": "Cazuela_De_Mariscos_thumbnail.png",
+    "luminanceImage": "Cazuela_De_Mariscos_luminance.png"
+  },
+  "created": 1793124858419,
+  "updated": 1793124858419
+}

@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 442,
+    "width": 2657,
+    "height": 3543,
+    "isRotated": false,
+    "originalWidth": 3543,
+    "originalHeight": 3543
+  },
+  "imagePath": "image-targets/Sopa_De_Zapallo_luminance.png",
+  "metadata": null,
+  "name": "Sopa_De_Zapallo",
+  "resources": {
+    "originalImage": "Sopa_De_Zapallo_original.png",
+    "croppedImage": "Sopa_De_Zapallo_cropped.png",
+    "thumbnailImage": "Sopa_De_Zapallo_thumbnail.png",
+    "luminanceImage": "Sopa_De_Zapallo_luminance.png"
+  },
+  "created": 1793125483335,
+  "updated": 1793125483335
+}
